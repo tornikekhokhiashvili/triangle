@@ -1,23 +1,23 @@
 # Triangle
 
-Given a class [`Point`](src/main/java/com/epam/rd/autotasks/triangle/Point.java),
-a skeleton of a class [`Triangle`](src/main/java/com/epam/rd/autotasks/triangle/Triangle.java),
-implement `Triangle` methods:
+Given: class [`Point`](src/main/java/com/epam/rd/autotasks/triangle/Point.java) and a skeleton of class [`Triangle`](src/main/java/com/epam/rd/autotasks/triangle/Triangle.java).
 
-* constructor, which has three points as parameters.\
-  Make sure that these points refer to vertices of the triangle.\
-  Ensure that the created triangle exists and it is not degenerative.\
+Implement `Triangle` methods:
+
+* constructor, having three points as parameters.\
+    These points refers to vertices of the triangle.\
+    Ensure that created triangle exists and it is not degenerative.\
 * `double area()`\
-  Return the area of the triangle.
+    Returns the area of the triangle.
 * `Point centroid()`\
-  Return the centroid of the triangle.
+    Returns the centroid of the triangle.
 
 Hints:
 * [Triangle existence reference](https://en.wikipedia.org/wiki/Triangle#Existence_of_a_triangle)
 * [Triangle area reference](https://en.wikipedia.org/wiki/Triangle#Computing_the_area_of_a_triangle)
 * [Centroid reference](https://en.wikipedia.org/wiki/Centroid)
 
-Please note that you may benefit from introducing more classes.
+Please *Note* that you may benefit from introducing more classes.
  
 ## Examples
 You may use [Main](src/test/java/com/epam/rd/autotasks/triangle/Main.java) class to try your code.
